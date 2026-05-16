@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fundraising</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+/* Extra styling for donation section */
+.donate-section {
+    background: #f4f4f4;
+    padding: 40px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.amount-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.amount-options button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bank-details {
+    text-align: left;
+    margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header class="main-header">
+<div class="logo-container">
+<img src="logo.png" alt="Igisubizo Academy logo" class="site-logo">
+<div class="logo-text">
+<h1>Igisubizo Academy</h1>
+<p class="tagline">COACHING | SUPPORT | SKILL DEVELOPMENT</p>
+</div>
+</div>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="impact.html">Impact</a>
+<a href="fundraising.html">Fundraising</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+
+<h2>Support a Child</h2>
+
+<p>
+Help students who cannot afford education. Your contribution can change a child’s future.
+</p>
+
+<p>
+5,000 RWF (~$4) supports one child per month.
+</p>
+
+<button onclick="document.getElementById('donate').scrollIntoView()">
+Donate Now
+</button>
+
+</section>
+
+<!-- DONATION FORM -->
+<section id="donate">
+
+<div class="donate-section">
+
+<h2>Choose Donation Amount ($)</h2>
+
+<div class="amount-options">
+<button>$5-50</button>
+<button>$100-250</button>
+<button>$300-600</button>
+<button>$5000</button>
+</div>
+
+<form>
+
+<h3>Enter Custom Amount ($)</h3>
+<input type="number" placeholder="Enter amount in USD">
+
+<h3>Your Details</h3>
+<input type="text" placeholder="Full Name"><br>
+<input type="email" placeholder="Email Address"><br>
+
+<h3>Bank Transfer Details</h3>
+
+<div class="bank-details">
+<p><strong>Bank Name:</strong> Equit</p>
+<p><strong>Account Name:</strong> Dan Ishimwe</p>
+<p><strong>Account Number:</strong> 4008101072827</p>
+<p><strong>Branch:</strong> Karongi Branch</p>
+</div>
+
+<br>
+
+<button>Confirm Donation</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+<div class="footer-content">
+<p>© 2026 Igisubizo Academy</p>
+
+<div class="social-icons">
+<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+<a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com"><i class="fab fa-x-twitter"></i></a>
+</div>
+
+</div>
+</footer>
+
+</body>
+</html>
